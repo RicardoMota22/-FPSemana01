@@ -25,9 +25,15 @@ a = Lv
 b = Lv2 
 c = Lv3
 
-print (name, (HP, Lv))
-print (name2, (HP2, Lv2))
-print (name, (HP3, Lv3))
+print (name)
+print(HP)
+print(Lv)
+print (name2)
+print(HP2) 
+print(Lv2)
+print (name3)
+print(HP3)
+print(Lv3)
 
 print(array)
 

@@ -34,16 +34,28 @@ print(array)
 #ranking levels
 def lv ():
     if a < b < c :
-        print (name3, name2, name)
+        print(name3)
+        print(name2)
+        print(name)
     elif b < a < c :
-        print (name3,name,name2)
+        print(name3)
+        print(name)
+        print(name2)
     elif c < b < a :
-        print(name,name2,name3)
+        print(name)
+        print(name2)
+        print(name3)
     elif b < c < a :
-        print(name,name3,name2)
+        print(name)
+        print(name3)
+        print(name2)
     elif a < c < b :
-        print(name2,name3,name)
+        print(name2)
+        print(name3)
+        print(name)
     else:
-        print(name2,name,name3)
+        print(name2)
+        print(name)   
+        print(name3)   
 lv()
     
